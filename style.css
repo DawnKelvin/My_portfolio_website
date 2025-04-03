@@ -1,0 +1,99 @@
+#Home{
+    background-color: rgb(153, 219, 219);
+    padding-bottom: 1cm;
+    padding-top: 1cm;
+    margin-right: -1cm;
+    margin-left: -1cm;
+    margin-top: -1cm;
+
+}
+
+body{
+    background-color: rgb(245, 243, 241);
+    margin-right: 1cm;
+    margin-left: 1cm;
+    line-height: 1.5;
+    justify-content: center;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    text-align: left;
+
+
+}
+
+a{
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.topnav{
+    background-color: rgb(153, 219, 219);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    float: right;
+    cursor: pointer;
+    border: none;
+    
+
+}
+
+p{
+    font-family: times 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+img{
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px;
+
+}
+
+button{
+    background-color: rgb(111, 253, 215);
+    text-decoration: solid;
+    margin-left: inherit;
+    padding: 10px, 20px;
+    font-size: 18px;
+    border:1px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    bottom: 0;
+    color: white;
+}
+
+button:hover,
+a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+ 
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+button:active,
+a:active {
+    transform: translateY(1px);
+}
